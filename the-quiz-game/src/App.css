@@ -1,0 +1,75 @@
+body{
+    background-color: #FFF8E3;
+    margin: 0;
+    padding: 0;
+}
+.theme{
+    background-color: black;
+    color: white;
+    height: 80px;
+    position: relative;
+    left: 60px;
+    top: 10px;
+    width: 170px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.questionBox{
+    height: 530px;
+    width: 1250px;
+    background-color: #F3D7CA;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+h2{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: 400;
+    top: 50px;
+}
+h1{
+    color: #4D9535;
+    font-size: 50px;
+    font-weight: 350;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.options{
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    gap: 20px;
+    justify-content: center;
+}
+.option1 , .option2, .option3, .option4{
+    width: 300px;
+    height: 50px;
+    background-color: #554659;
+    border: 0;
+    border-radius: 12px;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    top: 130px;
+    color: white;
+}
+.highlighter{
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+    justify-content: center;
+}
+.highlight{
+    width: 200px;
+    height: 70px;
+    position: relative;
+    left: 100px;
+    background-color: #007B74;
+    color: #C1BB89;
+    border: 0;
+    border-radius: 15px;
+    font-size: 23px;
+}

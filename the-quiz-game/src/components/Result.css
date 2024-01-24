@@ -1,0 +1,34 @@
+.result{
+    height: 600px;
+}
+.resultBox{
+    background-color: #60A348;
+    height: 310px;
+    width: 1050px;
+    position: relative;
+    left: 210px;
+    top: 130px;
+    color: white;
+}
+h1{
+    color: #12B081;
+    font-size: 50px;
+}
+h3{
+    color: #12B081;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+.restart{
+    height: 80px;
+    width: 210px;
+    font-size: 30px;
+    background-color: #007B74;
+    color: #C1BB89;
+    border: 0;
+    position: relative;
+    top: 50px;
+    left: 420px;
+    border-radius: 50px;
+}
